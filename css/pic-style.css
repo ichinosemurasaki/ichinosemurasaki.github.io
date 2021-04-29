@@ -1,0 +1,250 @@
+.pic1 {
+    height: 900px;
+    margin-top: 10rem;
+}
+
+.pic1::before {
+    content: "";
+    background-image: url(../images/1.jpg);
+    overflow: hidden;
+    height: 800px;
+    width: 500px;
+    display: block;
+    position: relative;
+    left: 10rem;
+    top: -8rem;
+    z-index: 5;
+}
+
+.pic1::after {
+    font-size: 1rem;
+    white-space: pre;
+    content: "　的子當少看展現老還年月\A　　生程叫定細講為響太由的";
+    border: rgb(209, 209, 209) 10px solid;
+    height: 400px;
+    width: 400px;
+    display: block;
+    position: relative;
+    top: -40rem;
+    left: 0rem;
+    z-index: 6;
+    padding-top: 5rem;
+}
+
+.pic2::before {
+    content: "";
+    background-image: url(../images/2.jpg);
+    overflow: hidden;
+    height: 800px;
+    width: 500px;
+    display: block;
+    position: relative;
+    left: 10rem;
+    top: -8rem;
+    z-index: 5;
+}
+
+.pic2::after {
+    font-size: 1rem;
+    white-space: pre;
+    content: "　的子當少看展現老還年月\A　　生程叫定細講為響太由的";
+    border: rgb(209, 209, 209) 10px solid;
+    height: 400px;
+    width: 400px;
+    padding-left: 10rem;
+    display: block;
+    position: relative;
+    top: -40rem;
+    left: 30rem;
+    z-index: 6;
+    padding-top: 5rem;
+}
+
+
+/*pics*/
+
+.one-pic1 {
+    margin-top: 12.5rem;
+    margin-left: 10rem;
+}
+
+.one-pic1::before {
+    content: "";
+    background-image: url(../images/1.jpg);
+    overflow: hidden;
+    height: 800px;
+    width: 500px;
+    display: block;
+    position: relative;
+    left: 20rem;
+    top: -8rem;
+    z-index: 5;
+}
+
+.one-pic1::after {
+    font-size: 1rem;
+    white-space: pre;
+    content: "　的子當少看展現老還年月\A　　生程叫定細講為響太由的";
+    border: rgb(209, 209, 209) 10px solid;
+    height: 400px;
+    width: 400px;
+    display: block;
+    position: relative;
+    top: -40rem;
+    left: 6rem;
+    z-index: 6;
+    padding-top: 5rem;
+}
+
+.one-pic2 {
+    margin-top: -15rem;
+    margin-left: 30vw;
+}
+
+.one-pic2::before {
+    content: "";
+    background-image: url(../images/2.jpg);
+    overflow: hidden;
+    height: 800px;
+    width: 500px;
+    display: block;
+    position: relative;
+    left: 10rem;
+    top: -8rem;
+    z-index: 5;
+}
+
+.one-pic2::after {
+    font-size: 1rem;
+    white-space: pre;
+    content: "　的子當少看展現老還年月\A　　生程叫定細講為響太由的";
+    border: rgb(209, 209, 209) 10px solid;
+    height: 400px;
+    width: 400px;
+    padding-left: 10rem;
+    display: block;
+    position: relative;
+    top: -40rem;
+    left: 30rem;
+    z-index: 6;
+    padding-top: 5rem;
+}
+
+.two-pic1,
+.two-pic2,
+.two-pic3,
+.two-pic4,
+.two-pic5,
+.two-pic6 {
+    background-color: darkgray;
+    height: 300px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.img-bg {
+    background-image: url(../images/1.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.left-1,
+.left-2,
+.left-3,
+.left-4 {
+    width: 25vw;
+    height: 200px;
+    margin-top: 1rem;
+    margin-left: -5rem;
+    overflow: hidden;
+    display: block;
+    transition: 300ms ease;
+    z-index: 99;
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+.left-1:hover,
+.left-2:hover,
+.left-3:hover,
+.left-4:hover {
+    margin-left: -4rem;
+    z-index: 99;
+}
+
+.left-1 {
+    background-image: url(../images/3.jpg);
+}
+
+.left-2 {
+    background-image: url(../images/4.jpg);
+}
+
+.left-3 {
+    background-image: url(../images/5.jpg);
+}
+
+.left-4 {
+    background-image: url(../images/9.jpg);
+}
+
+.show-pic {
+    margin-top: 1rem;
+    padding: 0rem;
+    height: 848px;
+    width: 60vw;
+    background-color: rgb(230, 230, 230);
+    transition: 500ms ease;
+    box-shadow: 3px 3px 15px lightgray;
+}
+
+#click {
+    font-size: 2rem;
+    margin: -28rem 0rem 0rem 25rem;
+    display: block;
+}
+
+#change-pic {
+    height: 848px;
+    width: 60vw;
+    overflow: hidden;
+    z-index: -99;
+    background-position: center;
+}
+
+.sns-pic img {
+    width: 100%;
+    min-height: 100px;
+    margin: 1rem;
+}
+
+
+/*ABOUT*/
+
+.intro-pic {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.intro-pic>img {
+    width: 100%;
+    margin: -8rem 2rem 0rem 0rem;
+}
+
+.intro-title {
+    font-size: 1.2rem;
+    margin-top: 9rem;
+}
+
+@media (max-width: 769px) {
+    .show-pic,
+    #change-pic {
+        width: 62vw;
+    }
+    .sns-pic img {
+        margin: 1rem 0rem;
+    }
+}
