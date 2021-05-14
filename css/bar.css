@@ -21,13 +21,24 @@
 .sk6,
 .sk7,
 .sk8,
-.sk9 {
+.sk9,
+.sk10,
+.sk11,
+.sk12,
+.sk13,
+.sk14,
+.sk15,
+.sk16,
+.sk17,
+.sk18,
+.sk19,
+.sk20 {
     background-color: #ffffff;
     overflow: hidden;
 }
 
 .sk1 {
-    width: 85%;
+    width: 80%;
 }
 
 @keyframes sk1 {
@@ -36,76 +47,16 @@
         background-color: #c2c2c2;
     }
     100% {
-        width: 85%;
+        width: 80%;
         background-color: #ffffff;
     }
 }
 
 .sk2 {
-    width: 10%;
-}
-
-@keyframes sk2 {
-    0% {
-        width: 5%;
-        background-color: #c2c2c2;
-    }
-    100% {
-        width: 10%;
-        background-color: #ffffff;
-    }
-}
-
-.sk3 {
-    width: 65%;
-}
-
-@keyframes sk3 {
-    0% {
-        width: 5%;
-        background-color: #c2c2c2;
-    }
-    100% {
-        width: 65%;
-        background-color: #ffffff;
-    }
-}
-
-.sk4 {
-    width: 70%;
-}
-
-@keyframes sk4 {
-    0% {
-        width: 5%;
-        background-color: #c2c2c2;
-    }
-    100% {
-        width: 70%;
-        background-color: #ffffff;
-    }
-}
-
-.sk5 {
-    width: 85%;
-}
-
-@keyframes sk5 {
-    0% {
-        width: 5%;
-        background-color: #c2c2c2;
-    }
-    100% {
-        width: 85%;
-        background-color: #ffffff;
-    }
-}
-
-.sk6 {
     width: 90%;
 }
 
-@keyframes sk6 {
+@keyframes sk2 {
     0% {
         width: 5%;
         background-color: #c2c2c2;
@@ -116,8 +67,68 @@
     }
 }
 
+.sk3 {
+    width: 75%;
+}
+
+@keyframes sk3 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 75%;
+        background-color: #ffffff;
+    }
+}
+
+.sk4 {
+    width: 65%;
+}
+
+@keyframes sk4 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 65%;
+        background-color: #ffffff;
+    }
+}
+
+.sk5 {
+    width: 80%;
+}
+
+@keyframes sk5 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 80%;
+        background-color: #ffffff;
+    }
+}
+
+.sk6 {
+    width: 80%;
+}
+
+@keyframes sk6 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 80%;
+        background-color: #ffffff;
+    }
+}
+
 .sk7 {
-    width: 50%;
+    width: 90%;
 }
 
 @keyframes sk7 {
@@ -126,16 +137,61 @@
         background-color: #c2c2c2;
     }
     100% {
-        width: 50%;
+        width: 90%;
         background-color: #ffffff;
     }
 }
 
 .sk8 {
-    width: 55%;
+    width: 65%;
 }
 
 @keyframes sk8 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 65%;
+        background-color: #ffffff;
+    }
+}
+
+.sk9 {
+    width: 65%;
+}
+
+@keyframes sk9 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 65%;
+        background-color: #ffffff;
+    }
+}
+
+.sk10 {
+    width: 80%;
+}
+
+@keyframes sk10 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 80%;
+        background-color: #ffffff;
+    }
+}
+
+.sk11 {
+    width: 55%;
+}
+
+@keyframes sk11 {
     0% {
         width: 5%;
         background-color: #c2c2c2;
@@ -146,11 +202,116 @@
     }
 }
 
-.sk9 {
+.sk12 {
+    width: 65%;
+}
+
+@keyframes sk12 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 65%;
+        background-color: #ffffff;
+    }
+}
+
+.sk13 {
+    width: 55%;
+}
+
+@keyframes sk13 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 55%;
+        background-color: #ffffff;
+    }
+}
+
+.sk14 {
+    width: 80%;
+}
+
+@keyframes sk14 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 80%;
+        background-color: #ffffff;
+    }
+}
+
+.sk15 {
+    width: 85%;
+}
+
+@keyframes sk15 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 85%;
+        background-color: #ffffff;
+    }
+}
+
+.sk16 {
     width: 70%;
 }
 
-@keyframes sk9 {
+@keyframes sk16 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 70%;
+        background-color: #ffffff;
+    }
+}
+
+.sk17 {
+    width: 65%;
+}
+
+@keyframes sk17 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 65%;
+        background-color: #ffffff;
+    }
+}
+
+.sk18 {
+    width: 50%;
+}
+
+@keyframes sk18 {
+    0% {
+        width: 5%;
+        background-color: #c2c2c2;
+    }
+    100% {
+        width: 50%;
+        background-color: #ffffff;
+    }
+}
+
+.sk19 {
+    width: 70%;
+}
+
+@keyframes sk19 {
     0% {
         width: 5%;
         background-color: #c2c2c2;

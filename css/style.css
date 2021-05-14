@@ -78,6 +78,7 @@ body a {
     box-shadow: 0px 3px 10px lightgray;
     background-color: white;
     padding: 0rem;
+    z-index: 999;
 }
 
 #sub1,
@@ -100,6 +101,7 @@ body a {
 
 .sub-nav>a {
     color: black;
+    z-index: 999;
 }
 
 .page-sub-title:hover {
@@ -216,8 +218,12 @@ body a {
 
 .sec-title {
     font-size: 2rem;
-    margin: 15rem 0rem;
+    margin: 1rem 0rem;
     text-align: center;
+}
+
+.unvisual {
+    opacity: 0;
 }
 
 .third-title {

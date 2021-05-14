@@ -202,8 +202,9 @@
 
 #click {
     font-size: 2rem;
-    margin: -28rem 0rem 0rem 25rem;
+    margin-top: -28rem;
     display: block;
+    position: relative;
 }
 
 #change-pic {
