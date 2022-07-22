@@ -12,7 +12,6 @@
     };
 }(jQuery));
 
-
 $(document).ready(function() {
     $("#burger").clickToggle(function() {
             $("#burger-icon").css("color", "white")
@@ -20,5 +19,4 @@ $(document).ready(function() {
         function() {
             $(".burger-icon").css("color", "black")
         });
-
 })

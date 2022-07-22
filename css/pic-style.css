@@ -222,6 +222,51 @@
 }
 
 
+/*gallary*/
+
+.fluidbox__wrap>.fluidbox__overlay {
+    background-color: rgb(0, 0, 0);
+}
+
+.fluidbox__wrap>.fluidbox__overlay::before {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .5;
+    filter: blur(4px);
+}
+
+.overlay-00>.fluidbox__wrap>.fluidbox__overlay::before {
+    background-image: url(../images/full/02.jpg);
+}
+
+.overlay-01>.fluidbox__wrap>.fluidbox__overlay::before {
+    background-image: url(../images/full/01.jpg);
+}
+
+.overlay-02>.fluidbox__wrap>.fluidbox__overlay::before {
+    background-image: url(../images/full/03.jpg);
+}
+
+.overlay-03>.fluidbox__wrap>.fluidbox__overlay::before {
+    background-image: url(../images/full/04.jpg);
+}
+
+.overlay-04>.fluidbox__wrap>.fluidbox__overlay::before {
+    background-image: url(../images/full/05.jpg);
+}
+
+.overlay-05>.fluidbox__wrap>.fluidbox__overlay::before {
+    background-image: url(../images/full/06.jpg);
+}
+
+
 /*ABOUT*/
 
 .intro-pic {

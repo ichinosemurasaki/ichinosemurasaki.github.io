@@ -233,7 +233,7 @@
 }
 
 .sk14 {
-    width: 80%;
+    width: 60%;
 }
 
 @keyframes sk14 {
@@ -242,7 +242,7 @@
         background-color: #c2c2c2;
     }
     100% {
-        width: 80%;
+        width: 60%;
         background-color: #ffffff;
     }
 }
